@@ -35,7 +35,7 @@
   COLON =         ':';
   QUOTE =         '"';
   BLOCK_QUOTE =   '"""';
-  ESCAPED_BLOCK_QUOTE = '\\"""';
+  ESCAPED_BLOCK_QUOTE = '\"\"\"';
   BLOCK_STRING_CHAR = (ESCAPED_BLOCK_QUOTE | ^'"""');
   ESCAPED_QUOTE = '\\"';
   STRING_CHAR =   (ESCAPED_QUOTE | ^'"');
